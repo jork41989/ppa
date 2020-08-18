@@ -1,0 +1,9 @@
+.logoModal{
+  display: flex;
+  justify-content: center;
+  padding-top: 40%;
+}
+
+.logoModalSvg{
+  width: 50%;
+}
