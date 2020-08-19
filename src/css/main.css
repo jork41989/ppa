@@ -1,9 +1,12 @@
 .logoModal{
-  position: absolute;
+  position: fixed;
+  z-index: 1;
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   top: 0;
+  overflow: hidden;
+  overflow-x: hidden;
   justify-content: center;
   background-color: white;
 }
@@ -11,6 +14,8 @@
 .logoModalSvg{
   width: 50%;
   opacity: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .fadeIn{
@@ -38,4 +43,83 @@
 
 .logoHead{
   height: 70px;
+}
+
+.headerButton{
+  color: #333399;
+  background: none;
+  border: none;
+  font-size: 25px;
+  margin-right: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.contentMain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainH1{
+  color: #333399;
+  text-align: center;
+}
+
+.mainP{
+  color: #999999;
+  width: 60%;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-self: center;
+  font-size: 25px;
+}
+
+.member{
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.members{
+  display: flex;
+  flex-direction: row;
+}
+
+.memberImg{
+  max-width: 60%;
+  align-self: center;
+}
+
+
+@media screen and (max-width: 1160px){
+  .header{
+    flex-direction: column;
+  }
+
+  .links{
+    margin-top: 5px;
+  }
+  .member{
+    width: 60%;
+  }
+  .
+}
+
+@media screen and (max-width: 600px) {
+  .headerButton{
+    font-size: 15px;
+  }
+  .mainP{
+    font-size: 15px;
+  }
 }
