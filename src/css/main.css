@@ -28,3 +28,14 @@
 .hideMe{
   display: none;
 }
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.logoHead{
+  height: 70px;
+}
