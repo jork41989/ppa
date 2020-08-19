@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 .logoModal{
   position: fixed;
   z-index: 1;
@@ -39,6 +43,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 100px;
+  margin: 5px;
 }
 
 .logoHead{
@@ -66,6 +71,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 300px;
 }
 
 .mainH1{
@@ -100,6 +106,18 @@
   align-self: center;
 }
 
+.backg2{
+  background-color: #999999;
+}
+
+.font2{
+  color: white;
+}
+
+.phoneNum{
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 1160px){
   .header{
@@ -112,7 +130,13 @@
   .member{
     width: 60%;
   }
-  .
+  .members{
+    flex-direction: column;
+    align-items: center;
+  }
+  .member{
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 600px) {
