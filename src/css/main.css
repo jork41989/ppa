@@ -1,9 +1,30 @@
 .logoModal{
+  position: absolute;
   display: flex;
+  height: 100vh;
+  width: 100%;
+  top: 0;
   justify-content: center;
-  padding-top: 40%;
+  background-color: white;
 }
 
 .logoModalSvg{
   width: 50%;
+  opacity: 0;
+}
+
+.fadeIn{
+  opacity: 1;
+  transition: opacity 2s ease-in;
+  -webkit-transition: opacity 2s ease-in;
+}
+
+.fadeOut{
+  opacity: 0;
+  transition: opacity 2s ease-out;
+  -webkit-transition: opacity 2s ease-out;
+}
+
+.hideMe{
+  display: none;
 }
