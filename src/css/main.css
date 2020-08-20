@@ -43,7 +43,7 @@ body{
   flex-direction: row;
   justify-content: space-between;
   height: 100px;
-      width: 100%;
+  width: 100%;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -126,13 +126,13 @@ body{
 .memberComp{
       color: white;
       margin: 5px;
-      font-size: 20px;
+      font-size: 24px;
 }
 
 .memberLink{
   text-decoration: none;
   color: white;
-  font-size: 17px;
+  font-size: 24px;
 }
 
 .backg2{
@@ -152,14 +152,30 @@ body{
   text-decoration: none;
 }
 
+.socialFoot{
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.socialIcon{
+  height: 50px;
+  margin-right: 10px;
+}
 
 @media screen and (max-width: 1160px){
   .header{
     flex-direction: column;
+    height: 150px;
+  }
+  #home{
+    padding-top: 100px;
   }
 
   .links{
     margin-top: 5px;
+    flex-wrap: wrap;
   }
   .member{
     width: 60%;
@@ -175,10 +191,11 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-  .headerButton{
-    font-size: 15px;
+
+  .memberLink{
+    font-size: 20px;
   }
   .mainP{
-    font-size: 15px;
+    font-size: 20px;
   }
 }
