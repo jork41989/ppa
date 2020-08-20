@@ -43,7 +43,11 @@ body{
   flex-direction: row;
   justify-content: space-between;
   height: 100px;
-  margin: 5px;
+      width: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  background: white;
 }
 
 .logoHead{
@@ -67,15 +71,26 @@ body{
   padding-top: 16px;
 }
 
+.logoMain{
+  width: 40%;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
 .contentMain{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 300px;
+  min-height: 530px;
 }
 
 .mainH1{
   color: #333399;
+  text-align: center;
+}
+
+.mainH1v2{
+  color: white;
   text-align: center;
 }
 
@@ -104,10 +119,29 @@ body{
 .memberImg{
   max-width: 60%;
   align-self: center;
+  background: white;
+  border-radius: 15px;
+}
+
+.memberComp{
+      color: white;
+      margin: 5px;
+      font-size: 20px;
+}
+
+.memberLink{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
 }
 
 .backg2{
   background-color: #999999;
+}
+
+.backg3{
+  background: #333399;
+  padding-bottom: 39px;
 }
 
 .font2{
@@ -136,6 +170,7 @@ body{
   }
   .member{
     width: 75%;
+    margin-bottom: 20px;
   }
 }
 
