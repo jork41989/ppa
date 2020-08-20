@@ -164,13 +164,31 @@ body{
   margin-right: 10px;
 }
 
+.footerPhone{
+  color: #999999;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 13px;
+}
+
+.group{
+  width: 26%;
+  align-self: center;
+}
+
 @media screen and (max-width: 1160px){
   .header{
     flex-direction: column;
-    height: 150px;
+    height: 138px;
   }
   #home{
     padding-top: 100px;
+  }
+
+  .headerButton{
+    font-size: 20px;
   }
 
   .links{
@@ -191,7 +209,9 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-
+  .group{
+    width: 60%;
+  }
   .memberLink{
     font-size: 20px;
   }
