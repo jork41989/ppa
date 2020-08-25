@@ -117,7 +117,7 @@ body{
 }
 
 .memberImg{
-  max-width: 60%;
+  width: 100%;
   align-self: center;
   background: white;
   border-radius: 15px;
@@ -127,6 +127,11 @@ body{
       color: white;
       margin: 5px;
       font-size: 24px;
+}
+
+.memberA{
+  width: 60%;
+  align-self: center;
 }
 
 .memberLink{
@@ -165,7 +170,7 @@ body{
 }
 
 .footerPhone{
-  color: #999999;
+  color: #333399;
   font-size: 24px;
   text-align: center;
   margin-left: 10px;
