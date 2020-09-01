@@ -183,6 +183,11 @@ body{
   align-self: center;
 }
 
+.sponsorsMain{
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 1160px){
   .header{
     flex-direction: column;
