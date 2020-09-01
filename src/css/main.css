@@ -186,12 +186,36 @@ body{
 .sponsorsMain{
   display: flex;
   flex-direction: row;
+  width: 60%;
+  margin-left: 20%;
+  justify-content: space-between;
 }
+
+
+.sponsorImg{
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  object-fit: contain;
+}
+.sponsorImgA{
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
 
 @media screen and (max-width: 1160px){
   .header{
     flex-direction: column;
     height: 138px;
+  }
+  .sponsorsMain{
+    flex-direction: row;
   }
   #home{
     padding-top: 100px;
