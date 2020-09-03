@@ -215,7 +215,20 @@ body{
     height: 138px;
   }
   .sponsorsMain{
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sponsorImgA{
+        margin-bottom: 21px;
+        margin-top: 15px;
+        height: 150px;
+        width: 150px;
+  }
+
+  .sponsorImg{
+     height: 150px;
+     width: 150px;
   }
   #home{
     padding-top: 100px;
